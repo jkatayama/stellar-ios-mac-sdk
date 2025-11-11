@@ -1,0 +1,10 @@
+framework module stellarsdk {
+  umbrella header "stellarsdk.h"
+  export *
+  module * { export * }
+}
+
+module ed25519C {
+  header "libs/ed25519-C/include/ed25519.h"
+  export *
+}
